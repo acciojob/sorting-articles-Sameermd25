@@ -15,7 +15,7 @@ bands.sort((a,b)=>{
 	let word2=aAnThe(b);
 	return word1.localeCompare(word2);
 });
-const ul=document.getElementById("ul");
+const ul=document.getElementById("bands");
 bands.forEach((band)=>{
 	const li=document.createElement("li");
 	li.innerText=band;
